@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About-Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+      
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet" media="screen">
+   	<link type="text/css" href="css/style.css" rel="stylesheet" media="screen">
+   
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-glyphicons.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+</body>
+		<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a href="#" class="navbar-brand">Company</a>
+		    </div>
+		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+		      <ul class="nav navbar-nav">
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="aboutus.html">About Us</a></li>
+		         <li ><a href="#">Services</a>		        
+ 						<ul class="dropdown-menu">
+				          	<li><a href="#">Service1</a></li>
+				        	<li><a href="#">Service2</a></li>
+				       		<li><a href="#">Service3</a></li>
+				        	<li><a href="#">Service4</a></li>
+				        	<li><a href="#">Service5</a></li>
+		        		</ul>
+		        </li>
+		        <li><a href="#">Products</a></li>
+		        <li><a href="#">Contact Us</a></li>
+		      </ul>
+		    </nav>
+		  </div>
+		</header>	
+		<br><br><br><center><h1>Main Title</h1></center><br>
+			<div class="container">
+      <div class="row">
+        <div class="span6 well">
+          <div id="carousel-example-generic" class="carousel slide">
+           <center>
+            <div class="carousel-inner">
+              <div class="item active"><img src="img/img10.jpg"><div class="carousel-caption ">Este es Un ejemplo de Caption1</div></div>
+              <div class="item"><img src="img/img11.jpg"><div class="carousel-caption">Este es Un ejemplo de Caption2</div></div>
+              <div class="item"><img src="img/img12.jpg"><div class="carousel-caption ">Este es Un ejemplo de Caption3</div></div>
+              <div class="item"><img src="img/img13.jpg"><div class="carousel-caption ">Este es Un ejemplo de Caption4</div></div>
+              <div class="item"><img src="img/img14.jpg"><div class="carousel-caption ">Este es Un ejemplo de Caption5</div></div>
+              <div class="item"><img src="img/img15.jpg"><div class="carousel-caption ">Este es Un ejemplo de Caption5</div></div>
+              	</div>
+             </center>
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="icon-prev"></span></a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="icon-next"></span>
+             </a>
+          </div>
+        </div>
+      </div>
+  </div>
+  	<!-- JavaScript plugins (requires jQuery) -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/collapse.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/carousel.js"></script>
+    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+    
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+    <script>
+      $(function(){
+        $("#example").popover();
+      });
+    </script>
+
+ </body>
+</html>

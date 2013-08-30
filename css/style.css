@@ -14,22 +14,21 @@
  }
 .parrafo{
 	font-family: "verdana" sans, sans-serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	text-align: justify;
 	padding: 20px 20px;
 	
 }
 
-.page-footer{
-	margin: 0 !important;
-	padding: 0;
-	height: 70px;
+.navbar-default{
+	
+	height: 60px;
 	background-color: #1f224f; 
 }
 .white{
 	color: #fff;
 	font-family: "verdana" sans, sans-serif;
-	font-size: 1em;
+	font-size: 0.8em;
 	float: right;
 	padding: 20px;
 }
